@@ -1,0 +1,60 @@
+{
+    "name": "Babylon.js",
+    "package": "babylonjs",
+    "index": "Documentation/public/html/api/index.html",
+    "selectors": {
+        "header h1": {
+            "type": "Module",
+            "matchpath": "Documentation/public/html/api/modules/.*\\.html"
+        },
+        "div.background-babylon h1": {
+            "type": "Class",
+            "matchpath": "Documentation/public/html/api/classes/.*\\.html"
+        },
+        "div.tsd-page-title h1": {
+            "type": "Interface",
+            "matchpath": "Documentation/public/html/api/interfaces/.*\\.html"
+        },
+        "ul.tsd-breadcrumb+h1": {
+            "type": "Enum",
+            "matchpath": "Documentation/public/html/api/enums/.*\\.html"
+        },
+        "section.tsd-member-group section.tsd-kind-constructor ul.tsd-kind-constructor li.tsd-signature": {
+            "type": "Constructor"
+        },
+        "section.tsd-member-group section.tsd-kind-function ul.tsd-kind-function li.tsd-signature": {
+            "type": "Function",
+            "matchpath": "Documentation/public/html/api/globals\\.html"
+        },
+        "section.tsd-member-group section.tsd-kind-type-alias h3": {
+            "type": "Type",
+            "matchpath": "Documentation/public/html/api/globals\\.html"
+        },
+        "section.tsd-member-group section.tsd-kind-type-literal h3": {
+            "type": "Type",
+            "matchpath": "Documentation/public/html/api/globals\\.html"
+        },
+        "section.tsd-member-group section.tsd-kind-method ul.tsd-kind-method li.tsd-signature": {
+            "type": "Method"
+        },
+        "section.tsd-member-group section.tsd-kind-enum-member div.tsd-signature": "Constant",
+        "section.tsd-member-group section.tsd-kind-property div.tsd-signature": {
+            "type": "Property"
+        },
+        "section.tsd-member-group section.tsd-kind-member div.tsd-signature": {
+            "type": "Property"
+        },
+        "section.tsd-member-group section.tsd-kind-type-variable h3": "Variable",
+        "section.tsd-member-group section.tsd-kind-accessor h3": "Annotation",
+        "section.tsd-member-group section.tsd-kind-call-signature h3": "Callback",
+        "section.tsd-member-group section.tsd-kind-index-signature h3": "Callback",
+        "section.tsd-member-group section.tsd-kind-object-literal h3": "Literal"
+    },
+    "ignore": [
+        "section.tsd-is-inherited > div.tsd-signature",
+        "ul.tsd-is-inherited > li.tsd-signature"
+    ],
+    "icon32x32": "logo32x32.png",
+    "allowJS": false,
+    "ExternalURL": "http://doc.babylonjs.com"
+}

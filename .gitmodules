@@ -1,0 +1,7 @@
+[submodule "dashing"]
+	path = dashing
+	url = https://github.com/rakete/dashing
+	branch = rakete
+[submodule "Documentation"]
+	path = Documentation
+	url = https://github.com/BabylonJS/Documentation.git
